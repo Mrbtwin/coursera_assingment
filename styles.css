@@ -1,0 +1,54 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c6c0ff;
+}
+
+.header {
+    font-family: 'Azeret Mono', monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+.item {
+    border: solid black;
+    background: #2978a0; 
+    padding: 20px;
+    width:  331px;
+    height:fit-content;
+    margin-top: 10px;
+    flex:1 1 330px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.items {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto;
+    
+    
+}
+
+.item > h4 {
+    background-color:#86999b;
+    padding: 5px;
+    text-align: right;
+    width: fit-content;
+    margin-left: auto;
+    margin: -20px -20px 0 auto;
+    
+    
+}
+.nav-item {
+       background:;
+}
+.navbar-brand{
+    
+}
